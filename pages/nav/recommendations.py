@@ -26,8 +26,8 @@ def load_data():
 df, cosine_sim, tfidf_model = load_data()
 
 # Mapeamento de termos em português para inglês
+
 term_mapping = {
-  term_mapping = {
     'celular': 'phone',
     'smartphone': 'phone',
     'computador': 'computer',
