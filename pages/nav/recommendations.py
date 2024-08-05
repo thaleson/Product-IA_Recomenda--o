@@ -80,7 +80,7 @@ term_mapping = {
     'scanner': 'scanner',
     'modem': 'modem',
     'roteador': 'router'
-}
+
 
 }
 
