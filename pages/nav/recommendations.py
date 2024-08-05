@@ -27,7 +27,61 @@ df, cosine_sim, tfidf_model = load_data()
 
 # Mapeamento de termos em português para inglês
 term_mapping = {
-    # ... (mapeamento de termos)
+  term_mapping = {
+    'celular': 'phone',
+    'smartphone': 'phone',
+    'computador': 'computer',
+    'notebook': 'laptop',
+    'acessórios': 'accessories',
+    'cabo': 'cable',
+    'carregador': 'charger',
+    'ventilador': 'fan',
+    'cozinha': 'kitchen',
+    'fritadeira': 'fryer',
+    'televisão': 'tv',
+    'televisor': 'tv',
+    'refrigerador': 'fridge',
+    'geladeira': 'fridge',
+    'micro-ondas': 'microwave',
+    'forno': 'oven',
+    'cafeteira': 'coffee maker',
+    'liquidificador': 'blender',
+    'torradeira': 'toaster',
+    'máquina de lavar': 'washing machine',
+    'secadora': 'dryer',
+    'ar condicionado': 'air conditioner',
+    'ventilador de teto': 'ceiling fan',
+    'aquecedor': 'heater',
+    'aspirador': 'vacuum cleaner',
+    'máquina de café': 'coffee machine',
+    'panelas': 'pots',
+    'frigideira': 'frying pan',
+    'tábua de corte': 'cutting board',
+    'processador de alimentos': 'food processor',
+    'escova de cabelo': 'hairbrush',
+    'secador de cabelo': 'hair dryer',
+    'chapinha': 'hair straightener',
+    'epilador': 'epilator',
+    'relógio': 'watch',
+    'pulseira': 'bracelet',
+    'brinco': 'earring',
+    'colar': 'necklace',
+    'anel': 'ring',
+    'óculos': 'glasses',
+    'lupa': 'magnifying glass',
+    'câmera': 'camera',
+    'tripé': 'tripod',
+    'microfone': 'microphone',
+    'alto-falante': 'speaker',
+    'fone de ouvido': 'headphones',
+    'mouse': 'mouse',
+    'teclado': 'keyboard',
+    'impressora': 'printer',
+    'scanner': 'scanner',
+    'modem': 'modem',
+    'roteador': 'router'
+}
+
 }
 
 def normalize_text(text):
