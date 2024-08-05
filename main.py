@@ -4,7 +4,7 @@ from streamlit_lottie import st_lottie
 import json
 
 
-st.set_page_config(page_title="Recomendações de Produtos", layout="wide")
+st.set_page_config(page_title="Recomendações de Produtos",  page_icon="💰")
 
 st.markdown(
     f"""
