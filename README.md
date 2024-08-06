@@ -67,7 +67,6 @@ Nos preocupamos com a privacidade e a ética na utilização de dados. Ao usar e
 - **Respeito aos Dados Pessoais**: Não utilize este sistema para processar dados pessoais sem permissão adequada.
 - **Uso Responsável**: Use as recomendações como referência adicional e não como única fonte de decisão.
 
-Para mais informações sobre como garantir o uso ético de dados, visite nosso [Guia de Respeito e Ética](#).
 
 ## 📜 Licença
 
