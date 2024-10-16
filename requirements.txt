@@ -1,5 +1,5 @@
 absl-py
-altair
+altair==4.2.0
 asttokens
 astunparse
 attrs
