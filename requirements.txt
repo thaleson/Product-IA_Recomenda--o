@@ -54,7 +54,7 @@ pillow
 pkgutil_resolve_name
 platformdirs
 prompt-toolkit
-protobuf
+protobuf==3.20
 psutil
 pure-eval
 pyarrow
